@@ -1,0 +1,19 @@
+.list{
+    position: relative;
+    margin-left: -5rem !important;
+    width: 400px;
+    align-items: center;
+    align-content: center;
+    /* margin-left: .1rem !important; */
+}
+ul li{
+    align-items: center;
+    align-content: center;
+    width: 400px !important;
+    justify-content: space-between;
+    /* position: absolute; */
+}
+/* .list .list-item{
+/* justify-content: center; */
+/* justify-content: start; */
+/* }  */

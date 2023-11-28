@@ -1,0 +1,8 @@
+.header-container{
+    margin-top: 1rem !important;
+    /* background-color: aqua; */
+    align-items: center;
+    align-content: center;
+    width: 400px !important;
+    position: absolute;
+}
