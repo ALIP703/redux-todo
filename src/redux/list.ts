@@ -24,14 +24,12 @@ const listSlice = createSlice({
       });
     },
     deleteItem: (state, action: PayloadAction<number>) => {
-      console.log(action.payload);
       if (action.payload > -1) {
         // only splice array when item is found
         state.itemList.splice(action.payload, 1); // 2nd parameter means remove one item only
       }
     },
     updateList: (state, action: PayloadAction<updatedItem>) => {
-      console.log(state.itemList[0]);
       state.itemList[action.payload.index].name = action.payload.name;
     },
   },
