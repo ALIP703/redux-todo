@@ -1,9 +1,8 @@
-.header-container{
-    margin-top: 1rem !important;
-    /* background-color: aqua; */
-    /* align-items: center;
-    align-content: center; */
-    width: 400px !important;
-    position: absolute;
-    
+
+header .header-container{
+    justify-content: center !important;
+    height: 5rem;
+    /* align-items: end !important; */
+    align-content: center !important;
+    /* background-color: rgb(17, 17, 20); */
 }

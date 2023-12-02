@@ -1,19 +1,15 @@
-.list{
-    position: relative;
-    margin-left: -5rem !important;
-    width: 400px;
-    align-items: center;
-    align-content: center;
-    /* margin-left: .1rem !important; */
+.list {
+  position: relative;
+  width: 400px;
+  align-items: center;
+  align-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
-ul li{
-    align-items: center;
-    align-content: center;
-    width: 400px !important;
-    justify-content: space-between;
-    /* position: absolute; */
+ul li {
+  align-items: center;
+  align-content: center;
+  width: 400px !important;
+  justify-content: space-between;
 }
-/* .list .list-item{
-/* justify-content: center; */
-/* justify-content: start; */
-/* }  */

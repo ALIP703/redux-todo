@@ -42,10 +42,10 @@ function Header() {
   return (
     <header>
       <Grid container spacing={2} className="header-container">
-        <Grid item xs={8}>
+        <Grid item xs={6}>
           <span> TODO </span>
         </Grid>
-        <Grid item xs={4}>
+        <Grid item xs={1}>
           <AddCircleOutlineIcon
             sx={{ fontSize: "20px", marginTop: ".2rem", cursor: "pointer" }}
             onClick={handleOpen}
