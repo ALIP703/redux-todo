@@ -6,10 +6,13 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  justify-content: center !important;
+
 }
 ul li {
   align-items: center;
   align-content: center;
   width: 400px !important;
   justify-content: space-between;
+  margin-left: 1rem;
 }

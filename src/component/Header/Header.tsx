@@ -27,11 +27,16 @@ function Header() {
     setItem({ name: "" });
   };
 
-  const handleAddItem = (item: listItem, setOpen: { (value: React.SetStateAction<boolean>): void; (arg0: boolean): void; }) => {
+  const handleAddItem = (
+    item: listItem,
+    setOpen: {
+      (value: React.SetStateAction<boolean>): void;
+      (arg0: boolean): void;
+    }
+  ) => {
     dispatch(addToList(item));
     setOpen(false);
     setItem({ name: "" });
-
   };
 
   const handleChange = (
@@ -47,7 +52,12 @@ function Header() {
         </Grid>
         <Grid item xs={1}>
           <AddCircleOutlineIcon
-            sx={{ fontSize: "20px", marginTop: ".2rem", cursor: "pointer" }}
+            sx={{
+              fontSize: "20px",
+              marginTop: ".15rem",
+              cursor: "pointer",
+              textShadow: "revert",
+            }}
             onClick={handleOpen}
           />
         </Grid>

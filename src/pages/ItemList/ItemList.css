@@ -10,8 +10,11 @@
 }
 
 .list-container {
-  justify-content: center;
+  justify-content: center !important;
   align-items: center !important;
-  /* background-color: blue; */
+  background-color: blue;
   margin-top: 3rem !important;
+  border-radius: 1rem;
+  margin-top: 1rem !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

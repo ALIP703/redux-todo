@@ -1,8 +1,8 @@
-
-header .header-container{
-    justify-content: center !important;
-    height: 5rem;
-    /* align-items: end !important; */
-    align-content: center !important;
-    /* background-color: rgb(17, 17, 20); */
+header .header-container {
+  justify-content: center !important;
+  height: 5rem;
+  /* align-items: end !important; */
+  align-content: center !important;
+  /* background-color: rgb(17, 17, 20); */
+  /* text-shadow: 2px 2px 5px red; */
 }
