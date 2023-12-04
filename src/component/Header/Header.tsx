@@ -82,17 +82,19 @@ function Header() {
                 left: "50%",
                 transform: "translate(-50%, -50%)",
                 width: 400,
-                bgcolor: "white",
+                bgcolor: "blue",
+                borderRadius:3,
                 boxShadow: 24,
                 p: 4,
               }}
             >
-              <h1 style={{ color: "black" }}>Add Item</h1>
+              <h1 style={{ color: "#F9E4DF" }}>Add Item</h1>
               <TextField
                 id="outlined-basic"
                 label="enter item"
                 variant="outlined"
-                sx={{ width: "100%" }}
+                sx={{ width: "100%",color:'white' }}
+                color="primary"
                 name="name"
                 value={item.name}
                 onChange={(event) => {
